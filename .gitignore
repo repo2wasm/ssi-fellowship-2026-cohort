@@ -49,3 +49,5 @@ po/*~
 rsconnect/
 # pixi environments
 .pixi
+
+/.quarto/
