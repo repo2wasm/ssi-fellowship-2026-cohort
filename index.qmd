@@ -1,7 +1,191 @@
 ---
-title: "repo2wasm"
+title: "Application for the Software Sustainability Institute's Fellowship Programme 2026"
+author: "Raniere Gaia Costa da Silva"
+date: 2025-09-08
+center-title-slide: false
 ---
 
-## Quarto
+# Who am I?
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+:::: {.columns}
+
+::: {.column width="50%"}
+Advocate for
+
+- Open Science
+- Open Access
+- Open Data
+- Open Source Software
+:::
+
+::: {.column width="50%"}
+Research Software Engineer with experience using
+
+- Python
+- R
+- JavaScript
+:::
+
+::::
+
+# What do I do?
+
+I work at GESIS Leibniz Institute for the Social Sciences, in Cologne, Germany 🇩🇪.
+
+Part of my job is to lower the barrier for researchers to reproduce someone's computational work.
+
+## {background-image="./img/mybinder.org.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://mybinder.org/ on 2025-09-15.
+:::
+
+::: {.notes}
+I'm the operator for the server that GESIS donates to mybinder.org and I contribute to the BinderHub federation.
+:::
+
+## {background-image="./img/discourse.jupyter.org.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://discourse.jupyter.org/t/is-mybinder-org-not-functional-right-now/37873 on 2025-09-15.
+:::
+
+::: {.notes}
+Unfortunately, the BinderHub operation team size is 5 volunteers. This translates into mybinder.org be down regularly.
+:::
+
+## {background-image="./img/jupyterlite.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://jupyterlite.readthedocs.io/en/stable/ on 2025-09-15.
+:::
+
+::: {.notes}
+A better solution, is to migrate mybinder.org to use JupyterLite.
+:::
+
+## BinderHub vs JupyterLite
+
+From the prespective of site reliability engineering (SRE),
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**BinderHub**
+
+- Proxy
+- Jupyter server
+- Container
+- Kubernetes
+:::
+
+::: {.column width="50%"}
+**JupyterLite**
+
+- Web server, like  Apache HTTP Server or Nginx.
+:::
+
+::::
+
+::: {.notes}
+JupyterLite has a smaller list of dependencies.
+:::
+
+## {background-image="./img/binderlite.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://discourse.jupyter.org/t/idea-binder-jupyterlite-binderlite/14449 on 2025-09-15.
+:::
+
+::: {.notes}
+This is not a new idea. It has been propose all the way back to 2022.
+:::
+
+## {background-image="./img/repo2jupyterlite.png" background-size="cover" background-position="top"}
+
+# My plans for the Fellowship
+
+- Q1/2026: German RSE Conference
+- Q2/2026: 
+- Q3/2026:
+- Q4/2026:
+
+## Q1/2026
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Participation on the 6th Conference for Research Software Engineering in Germany
+during 3-5 March 2026
+in Stuttgart, Germany 🇩🇪.
+:::
+
+::: {.column width="50%"}
+**Output**
+
+Lightning talk about JupyterLite and earlier work to create BinderLite.
+:::
+
+::::
+
+## Q2/2026
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Participation on Collaborations Workshop 2026 (CW26)
+during 28-30 April 2026
+in Belfast, UK 🇬🇧.
+:::
+
+::: {.column width="50%"}
+**Output**
+
+Prototype of BinderLite with
+
+- Flask server
+- Support to Conda environments for Python using Xeus based kernel
+- Support to Conda environments for R using Xeus based kernel
+:::
+
+::::
+
+## Q3/2026
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Participation on UseR! 2026 Conference
+during 6-9 July 2026
+in Warsaw, Poland 🇵🇱.
+
+Participation on RSECon 2026
+during 7-11th September 2026
+in Sheffield, UK 🇬🇧.
+:::
+
+::: {.column width="50%"}
+**Output**
+
+Lightning talk about BinderLite to promote the support of WebR REPL.
+
+![Screenshot of https://webr.sh/ on 2025-09-15.](img/webr-repl.png)
+:::
+
+::::
+
+## Q4/2026
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Organise workshop in **Cambridge, UK** 🇬🇧 to promote use of JupyterLite to speed up code check and as "replication package". 
+:::
+
+::: {.column width="50%"}
+**Output**
+
+Draft of white paper on ways that publishers can use BinderLite to offer reproducibility to readers without major changes in their software infrastructure.
+:::
+
+::::
