@@ -32,7 +32,7 @@ Research Software Engineer with experience using
 
 I work at GESIS Leibniz Institute for the Social Sciences, in Cologne, Germany 🇩🇪.
 
-Part of my job is to lower the barrier for researchers to reproduce someone's computational work.
+Part of my job is to lower the barrier for researchers to reproduce someone's computational work, this includes provide operation support to mybinder.org.
 
 ## {background-image="./img/mybinder.org.png" background-size="cover" background-position="top"}
 
@@ -42,6 +42,18 @@ Screenshot of https://mybinder.org/ on 2025-09-15.
 
 ::: {.notes}
 I'm the operator for the server that GESIS donates to mybinder.org and I contribute to the BinderHub federation.
+:::
+
+## {background-image="./img/mybinder-launches.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://discourse.jupyter.org/t/i-updated-the-binder-data-repository-with-a-more-usable-launches-dataset/37781 on 2025-09-15.
+:::
+
+::: {.notes}
+mybinder.org had a huge number of users between 2020 and 2022. This was possible thanks to financial support from Google. Even with the lost of financial support from Google, the platform continues to have a substantial number of daily users.
+
+The big drop in daily users at the begin of 2022 was due the switch to JupyterLite for popular repositories.
 :::
 
 ## {background-image="./img/discourse.jupyter.org.png" background-size="cover" background-position="top"}
@@ -64,7 +76,33 @@ Screenshot of https://jupyterlite.readthedocs.io/en/stable/ on 2025-09-15.
 A better solution, is to migrate mybinder.org to use JupyterLite.
 :::
 
-## BinderHub vs JupyterLite
+## JupyterLite
+
+It is powered by WebAssembly (Wasm). Wasm adoption by industry has grow. In 2019, Solomon Hykes, a co-founder of Docker, wrote on Twitter (now X)
+
+> If WASM+WASI existed in 2008, we wouldn't have needed to create Docker. That's how important it is.
+
+## {background-image="./img/binderlite.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://discourse.jupyter.org/t/idea-binder-jupyterlite-binderlite/14449 on 2025-09-15.
+:::
+
+::: {.notes}
+This is not a new idea. It has been propose all the way back to 2022.
+:::
+
+## {background-image="./img/repo2jupyterlite.png" background-size="cover" background-position="top"}
+
+::: aside
+Screenshot of https://github.com/jupyterlite/repo2jupyterlite on 2025-09-15.
+:::
+
+::: {.notes}
+Some work was done but the project stop in earlier 2023.
+:::
+
+## BinderHub vs BinderLite
 
 From the prespective of site reliability engineering (SRE),
 
@@ -80,35 +118,25 @@ From the prespective of site reliability engineering (SRE),
 :::
 
 ::: {.column width="50%"}
-**JupyterLite**
+**BinderLite**
 
-- Web server, like  Apache HTTP Server or Nginx.
+- Web server, like  Apache HTTP Server or Nginx
 :::
 
 ::::
 
 ::: {.notes}
-JupyterLite has a smaller list of dependencies.
+BinderLite has a smaller list of dependencies.
 :::
 
-## {background-image="./img/binderlite.png" background-size="cover" background-position="top"}
+## My plans for the Fellowship
 
-::: aside
-Screenshot of https://discourse.jupyter.org/t/idea-binder-jupyterlite-binderlite/14449 on 2025-09-15.
-:::
-
-::: {.notes}
-This is not a new idea. It has been propose all the way back to 2022.
-:::
-
-## {background-image="./img/repo2jupyterlite.png" background-size="cover" background-position="top"}
-
-# My plans for the Fellowship
+Promote JupyterLite and the idea of BinderLite as a replacement for BinderHub in the context of mybinder.org at
 
 - Q1/2026: German RSE Conference
-- Q2/2026: 
-- Q3/2026:
-- Q4/2026:
+- Q2/2026: Collaborations Workshop
+- Q3/2026: UseR! + RSECon
+- Q4/2026: CodeCheck meeting
 
 ## Q1/2026
 
@@ -179,7 +207,10 @@ Lightning talk about BinderLite to promote the support of WebR REPL.
 :::: {.columns}
 
 ::: {.column width="50%"}
-Organise workshop in **Cambridge, UK** 🇬🇧 to promote use of JupyterLite to speed up code check and as "replication package". 
+As a collaboration with creators of [CODECHECK](https://codecheck.org.uk/), Stephen Eglen (SSI fellow) and Daniel Nüst, the organisation of a meeting in Cambridge, UK 🇬🇧 to promote
+
+- the use of JupyterLite to speed up code check
+- JupyterLite as "replication package" format.
 :::
 
 ::: {.column width="50%"}
@@ -189,3 +220,8 @@ Draft of white paper on ways that publishers can use BinderLite to offer reprodu
 :::
 
 ::::
+
+## After the Fellowship
+
+- Add BinderLite as a official offer at mybinder.org
+- Explore the adoption of JupyterLite as "replication package" by some publishers, e.g. openRxiv, eLife and Gigascience Press.
