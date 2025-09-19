@@ -3,6 +3,7 @@ title: "Application for SSI&nbsp;Fellowship 2026"
 author: "Raniere Gaia Costa da Silva"
 date: 2025-09-08
 center-title-slide: false
+footer: "Slide available at https://repo2wasm.github.io/ssi-fellowship-2026-cohort/"
 ---
 
 # Who am I?
