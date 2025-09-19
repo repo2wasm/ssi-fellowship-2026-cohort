@@ -225,7 +225,8 @@ Draft of white paper on ways that publishers can use BinderLite to offer reprodu
 
 ::::
 
-## After the Fellowship
+## After the Fellowship {background-image="./img/background-after-fellowship.png" background-size="cover" background-position="top"}
 
 - Add BinderLite as a official offer at mybinder.org
-- Explore the adoption of JupyterLite as "replication package" by some publishers, e.g. openRxiv, eLife and Gigascience Press.
+- Explore the adoption of JupyterLite as "replication package" by some publishers, e.g. openRxiv and eLife.
+
