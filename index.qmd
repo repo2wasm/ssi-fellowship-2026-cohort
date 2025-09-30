@@ -126,6 +126,7 @@ From the prespective of site reliability engineering (SRE),
 **BinderLite**
 
 - Web server, like  Apache HTTP Server or Nginx
+- JupyterLite
 :::
 
 ::::
