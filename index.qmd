@@ -41,19 +41,11 @@ Part of my job is to lower the barrier for researchers to reproduce someone's co
 
 ## {background-image="./img/mybinder.org.png" background-size="cover" background-position="top"}
 
-::: aside
-Screenshot of https://mybinder.org/ on 2025-09-15.
-:::
-
 ::: {.notes}
 The BinderHub Federation provides a website where visitors can access a Jupyter environment with 1-click.
 :::
 
 ## {background-image="./img/mybinder-launches.png" background-size="cover" background-position="top"}
-
-::: aside
-Screenshot of https://discourse.jupyter.org/t/i-updated-the-binder-data-repository-with-a-more-usable-launches-dataset/37781 on 2025-09-15.
-:::
 
 ::: {.notes}
 The BinderHub Federation had a huge number of users between 2020 and 2022. This was possible thanks to financial support from Google. Even with the lost of financial support from Google, the platform continues to have a substantial number of daily users.
@@ -63,19 +55,11 @@ The big drop in daily users at the begin of 2022 was due the switch to JupyterLi
 
 ## {background-image="./img/discourse.jupyter.org.png" background-size="cover" background-position="top"}
 
-::: aside
-Screenshot of https://discourse.jupyter.org/t/is-mybinder-org-not-functional-right-now/37873 on 2025-09-15.
-:::
-
 ::: {.notes}
 Unfortunately, the BinderHub operation team size is 5 volunteers. This translates into the website be down regularly.
 :::
 
 ## {background-image="./img/jupyterlite.png" background-size="cover" background-position="top"}
-
-::: aside
-Screenshot of https://jupyterlite.readthedocs.io/en/stable/ on 2025-09-15.
-:::
 
 ::: {.notes}
 A better solution, is to help visitors to do the computation on their own devices. This is possible using JupyterLite.
@@ -89,19 +73,11 @@ It is powered by WebAssembly (Wasm). Wasm adoption by industry has grow. In 2019
 
 ## {background-image="./img/binderlite.png" background-size="cover" background-position="top"}
 
-::: aside
-Screenshot of https://discourse.jupyter.org/t/idea-binder-jupyterlite-binderlite/14449 on 2025-09-15.
-:::
-
 ::: {.notes}
 This is not a new idea. It has been propose all the way back to 2022.
 :::
 
 ## {background-image="./img/repo2jupyterlite.png" background-size="cover" background-position="top"}
-
-::: aside
-Screenshot of https://github.com/jupyterlite/repo2jupyterlite on 2025-09-15.
-:::
 
 ::: {.notes}
 Some work was done but the project stop in earlier 2023.
